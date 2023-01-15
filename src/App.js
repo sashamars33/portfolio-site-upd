@@ -13,7 +13,7 @@ function App() {
     <Router>
       <section className="flex flex-col justify-between h-screen font-thin">
         <Nav></Nav>
-        <main className='contianer mx-8 px-2 pb-8 lg:flex lg:flex-wrap xl:flex xl:flex-wrap'>
+        <main className='contianer mx-1 md:mx-8 lg:mx-32 xl:mx-64 px-2 pb-8 lg:flex lg:flex-wrap xl:flex xl:flex-wrap'>
           <Home />
           <Projects />
           <About />
