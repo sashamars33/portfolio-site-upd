@@ -3,8 +3,8 @@ import React from 'react'
 const ContactForm = () => {
   return (
 				<section className="bg-neutral p-4 rounded-lg lg:w-3/4 lg:m-auto xl:w-3/4 xl:m-auto">
-					<form className="form-control" name = "contact" netlify>
-				  
+					<form className="form-control" name = "contact" method="post">
+					<input type="hidden" name="form-name" value="contact" />
 					  <label className='label' for="fname">First Name</label>
 					  <input className='input' type="text" id="fname" name="firstname" placeholder="Your name.."></input>
 				  

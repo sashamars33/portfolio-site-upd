@@ -2,7 +2,7 @@
 <html lang="en" data-theme="coffee">
   <head>
     <meta charset="utf-8" />
-    <!-- <link rel="icon" href="%PUBLIC_URL%/favicon.ico" /> -->
+    <link rel="icon" href="icon .PNG" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
@@ -12,6 +12,30 @@
     <title>Sasha Marshall Designs</title>
   </head>
   <body>
+    <form className="form-control" name = "contact" netlify netlify-honeypot="bot-field" hidden>
+				  
+      <label className='label' for="fname">First Name</label>
+      <input className='input' type="text" id="fname" name="firstname" placeholder="Your name.."></input>
+    
+      <label className='label' for="lname">Last Name</label>
+      <input className='input' type="text" id="lname" name="lastname" placeholder="Your last name.."></input>
+    
+      <label className='label' for="subject">Subject</label>
+      <select className='select' id="subject" name="subject">
+      <option value="webDev">Software Engineering</option>
+      <option value="design">Design Projects</option>
+      </select>
+
+      <label className='label' for="email">Email</label>
+      <input className='input' type="text" id="email" name="email" placeholder="Your email.."></input>
+      
+    
+      <label className='label' for="details">Additonal Details</label>
+      <textarea className='textarea' id="details" name="details" placeholder="Tell me more about your future project..."></textarea>
+    
+      <input className='btn btn-rounded btn-ghost mt-4' type="submit" value="Submit"></input>
+    
+    </form>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
   </body>

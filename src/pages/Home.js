@@ -10,8 +10,8 @@ import {FaJsSquare} from 'react-icons/fa'
 import {FaNodeJs} from 'react-icons/fa'
 import {FaNpm} from 'react-icons/fa'
 import {FaReact} from 'react-icons/fa'
-import {FaWordpressSimple} from 'react-icons/fa'
-import {FaShopify} from 'react-icons/fa'
+// import {FaWordpressSimple} from 'react-icons/fa'
+// import {FaShopify} from 'react-icons/fa'
 import {FaFigma} from 'react-icons/fa'
 import {FaCss3Alt} from 'react-icons/fa'
 
@@ -19,7 +19,7 @@ import {SiAdobeillustrator} from 'react-icons/si'
 import {SiMongodb} from 'react-icons/si'
 import {SiExpress} from 'react-icons/si'
 import {SiTailwindcss} from 'react-icons/si'
-import headerImg from '../assets/images/header.png'
+// import headerImg from '../assets/images/header.png'
 
 const Home = () => {
   return (
