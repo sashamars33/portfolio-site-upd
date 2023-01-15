@@ -1,11 +1,11 @@
-import SNSS from '../assets/images/sticky-notes-ss.png'
+// import SNSS from '../assets/images/sticky-notes-ss.png'
 import NPGSS from '../assets/images/nature-photo-ss.png'
 import TTPSS from '../assets/images/thelma-ss.png'
 import SMSSS from '../assets/images/sm-ss.png'
 import APTSS from '../assets/images/avanti-ss.png'
 import DDKSS from '../assets/images/daydaykay-ss.png'
 import DJCSS from '../assets/images/DJCSS.png'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
 
 const Project = () => {
@@ -24,7 +24,7 @@ const Project = () => {
       <h2 className='text-3xl'>Nature Photo Generator</h2>
       <p className='text-base-100 font-normal '>A React frontend app that makes an API call to a server built with Express. The server can be logged into by an adminsitrator to upload new photos to be used by the react app. Others can make calls to the API as well with details listed on the About page of the site.</p>
       <p className="">Techologies: React | MongoDB | Node | Express</p>
-      <img className='w-full my-4 rounded-2xl' src={NPGSS} alt='Nature Photo Generator Website Preview'></img>
+      <img className='w-full my-4 rounded-2xl' src={NPGSS} alt='Nature Photograph Generator Website Preview'></img>
     </div>
     </a>
     <a href='https://avantiphysicaltherapy.com/'>
