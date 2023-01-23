@@ -34,7 +34,7 @@ const Home = () => {
           <a href='https://www.instagram.com/sashamarshall_33/' className='btn btn-ghost btn-sm rounded-btn text-3xl'><FaInstagram /></a>
         </div>
         <div className="flex bg-secondary p-4 my-4 rounded-xl flex-wrap">
-        <p className='py-8 my-4 text-primary p-4 bg-neutral rounded-xl lg:text-xl xl:text-2xl font-normal w-full'>Building full-stack applications with React, MonogoDB, Node.js, Express, and TailwindCSS. To see examples of my work, check out my projects on the projects page. If you want to know more about my skills and experience, head to my about page. 
+        <p className='py-8 my-4 text-primary p-4 bg-neutral rounded-xl lg:text-xl xl:text-2xl font-normal w-full'>Building full-stack applications with React, MonogoDB, Node.js, Express, and TailwindCSS. To see examples of my work, check out my projects in the projects section. If you want to know more about my skills and experience, head to the about section. 
         </p>
         <ul className="flex flex-wrap w-full justify-around md:text-4xl lg:text-4xl xl:text-5xl text-xl text-base-100">
           <li className="p-1"><FaGitAlt/></li>
