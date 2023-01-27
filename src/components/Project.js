@@ -10,7 +10,7 @@ import DJCSS from '../assets/images/DJCSS.png'
 
 const Project = () => {
   return (
-    <section className='card bg-neutral grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 items-center'>
+    <section className='card bg-neutral grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 items-center'>
     {/* <a href='#'>
     <div className='card bg-info text-neutral flex flex-col justify-between p-4 m-4'>
       <h2 className='text-3xl'>Sticky Notes</h2>
@@ -55,7 +55,10 @@ const Project = () => {
     <a href='https://daydaykaydesigns.com/' className="">
     <div className='card bg-info text-neutral flex flex-col justify-between flex  p-4 m-4'>
       <h2 className='text-3xl'>Daydaykay Designs</h2>
-      <p className='text-base-100 font-normal'>A shopify eccommerce site for humorous greeting cards for a variety of holidays.</p>
+      <p className='text-base-100 font-normal'>A shopify eccommerce site for humorous greeting cards for a variety of holidays.<br></br>
+      "She was patient, thoughtful and insightful. And in the end, I not only got a beautiful website,
+but she texted me a simple explanation on how to proceed in maintaining the website in the
+future." - David</p>
       <p className="">Techologies: Shopify | CSS</p>
       <img className='w-full my-4 rounded-2xl' src={DDKSS} alt='Daydaykay Designs Website Preview'></img>
     </div>
