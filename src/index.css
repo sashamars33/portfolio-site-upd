@@ -3,3 +3,49 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.heading-font {
+    font-family: Barlow, sans-serif;
+    font-weight: 700;
+}
+
+.accent-font {
+    font-family: Manrope, sans-serif;
+}
+
+.gradient {
+    background: linear-gradient(128deg, rgba(0, 255, 255, 0.45) -1.48%, rgba(41, 125, 187, 0.45) 25.69%, rgba(80, 85, 178, 0.45) 51.19%, rgba(255, 74, 49, 0.45) 114.01%);
+}
+
+.text-gradient {
+    background: linear-gradient(128deg, rgba(0, 255, 255, 0.45) -1.48%, rgba(41, 125, 187, 0.45) 25.69%, rgba(80, 85, 178, 0.45) 51.19%, rgba(255, 74, 49, 0.45) 114.01%);
+    background-clip: text; 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-bg {
+    background-image: url('assets/images/bg-hero.svg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-clip: content-box;
+}
+ 
+input::placeholder,
+textarea::placeholder{
+    color: #297dbb;
+}
+
+input, select, textarea {
+    border: none;
+}
+
+.bg-testimonial {
+    background-image: url('assets/images/testimonial-bg.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-clip: content-box;
+}

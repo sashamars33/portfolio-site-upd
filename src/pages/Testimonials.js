@@ -3,10 +3,10 @@ import React from 'react'
 const Testimonials = () => {
   return (
     <>
-    <div className='my-8 card bg-neutral p-8'>
-        <h4 class="text-center text-3xl">Testimonials</h4>
-        <p className="font-medium my-4 card bg-secondary p-4 text-base-100">"It was a pleasure working with Sasha. She listened to my ideas and was able to incorporate them into her decisions for design and style which resulted in a website that was exactly what I was asking for. I would definitely recommend her if you are looking to build a website!" <span className="font-light text-lg italic pt-2">- Giusi</span></p>  
-        <p className="font-medium my-4 card bg-secondary p-4 text-base-100">"I recently had the great pleasure of working with Sasha Marshall as she designed and created a
+    <div className='my-6 mx-48'>
+        <h4 class="text-center text-3xl uppercase text-secondary">Testimonials</h4>
+        <p className="font-medium my-4 card bg-testimonial p-4 text-neutral">"It was a pleasure working with Sasha. She listened to my ideas and was able to incorporate them into her decisions for design and style which resulted in a website that was exactly what I was asking for. I would definitely recommend her if you are looking to build a website!" <span className="font-light text-lg italic pt-2">- Giusi</span></p>  
+        <p className="font-medium my-4 p-4  bg-testimonial text-neutral ">"I recently had the great pleasure of working with Sasha Marshall as she designed and created a
 website to display and sell my greeting cards and illustrations. Sasha was able to help me
 decide on the right template to use and patiently took me through the steps as she created the
 site.

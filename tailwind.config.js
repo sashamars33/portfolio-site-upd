@@ -4,11 +4,35 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      sans: ['Montserrat', 'Helvetica','sans-serif']
+      sans: ['Manrope', 'Helvetica','sans-serif'],
+      serif: ['Barlow', 'Helvetica','sans-serif'],
     }
   },
   plugins: [require("daisyui")],
   daisyui: {
-    themes: ["night"]
+    themes: [
+      {
+        mytheme: {
+        
+"primary": "#297dbb",
+        
+"secondary": "#5055b2",
+        
+"accent": "#ff4a31",
+        
+"neutral": "#060508",
+        
+"base-100": "#fff",
+        
+"info": "#ff7171",
+        
+"success": "#365314",
+        
+"warning": "#ef4444",
+        
+"error": "#e01a2e",
+        },
+      },
+    ],
   }
 }
