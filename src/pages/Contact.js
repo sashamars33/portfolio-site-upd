@@ -7,7 +7,7 @@ import {FaRegEnvelope} from 'react-icons/fa'
 
 const Contact = () => {
   return (
-    <div id='connect' className="mx-48 w-full flex gap-12 justify-end">
+    <div id='connect' className="mx-48 my-24 w-full flex gap-12 justify-end">
       <div className="w-1/3 text-right">
         <p className="text-2xl text-secondary pt-24 pb-6">Want to get in touch?</p>
         <p className="text-2xl">I am always interested in new opportunities, ideas, and technologies. Send me a message with anything new!</p>

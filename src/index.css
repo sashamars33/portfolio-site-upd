@@ -42,10 +42,9 @@ input, select, textarea {
     border: none;
 }
 
-.bg-testimonial {
-    background-image: url('assets/images/testimonial-bg.svg');
+.bg-footer {
+    background-image: url('assets/images/footer-bg.svg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-clip: content-box;
 }
