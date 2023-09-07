@@ -27,20 +27,20 @@ const Home = () => {
   return (
     <section id='home' className="hero-bg h-screen">
       <Nav />
-      <section className="hero-container flex items-center mx-1 md:mx-8 lg:mx-32 xl:mx-48 pb-12 z-10 ">
-      <div className="hero w-1/2 flex flex-col items-start">
-        <h1 className='text-6xl uppercase xl:text-7xl heading-font text-neutral pb-6'>Building beautiful web applications.</h1>
-        <p className='text-xl text-left xl:text-2xl accent-font'>Equipped with all the technical skills to help you tackle your web developments needs.</p>
-        <div className='flex w-2/4 justify-between text-gradient py-6'>
+      <section className="hero-container flex flex-wrap items-center mx-8 md:mx-32 lg:mx-48 xl:mx-48 pb-12 z-10 ">
+      <div className="hero w-full xl:w-1/2 text-center xl:text-left flex flex-col items-start">
+        <h1 className='text-5xl lg:text-6xl xl:text-6xl uppercase xl:text-7xl heading-font text-neutral pb-6 text-center xl:text-left'>Building beautiful web applications.</h1>
+        <p className='text-xl text-left xl:text-2xl accent-font text-center xl:text-left'>Equipped with all the technical skills to help you tackle your web developments needs.</p>
+        <div className='flex w-full xl:w-2/4 justify-center xl:justify-between gap-3 text-gradient py-6'>
           <a href='https://twitter.com/sashamdesigns' className='btn btn-ghost btn-sm rounded-btn text-3xl'><FaTwitter /></a>
           <a href='https://github.com/sashamars33' className='btn btn-ghost btn-sm rounded-btn text-3xl'><FaGithub /></a>
           <a href='https://www.linkedin.com/in/-sasha-marshall/' className='btn btn-ghost btn-sm rounded-btn text-3xl'><FaLinkedin /></a>
           <a href='mailto:sashamarshalldesigns@gmail.com' className='btn btn-ghost btn-sm rounded-btn text-3xl'><FaRegEnvelope /></a>
           <a href='https://www.instagram.com/sashamarshall_33/' className='btn btn-ghost btn-sm rounded-btn text-3xl'><FaInstagram /></a>
         </div>
-        <Link to='about' activeClass='active' spy={true} smooth={true} offset={-50} duration={500} className="btn btn-secondary w-1/2 text-xl text-base-100">Learn More</Link>
+        <Link to='about' activeClass='active' spy={true} smooth={true} offset={-50} duration={500} className="btn btn-secondary w-1/2 text-xl text-base-100 m-auto ">Learn More</Link>
       </div>
-      <div className="hero-img w-1/2">
+      <div className="hero-img w-1/2 m-auto my-6 xl:m-0">
         <img src={headerImg} alt="hero" className='w-full'/>
       </div>
     </section>
