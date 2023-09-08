@@ -1,4 +1,4 @@
-import React from 'react'
+import {Link} from 'react-router-dom'
 import {FaTwitter} from 'react-icons/fa'
 import {FaInstagram} from 'react-icons/fa'
 import {FaGithub} from 'react-icons/fa'
@@ -19,20 +19,33 @@ import {SiAdobeillustrator} from 'react-icons/si'
 import {SiMongodb} from 'react-icons/si'
 import {SiExpress} from 'react-icons/si'
 import {SiTailwindcss} from 'react-icons/si'
-// import headerImg from '../assets/images/header.png'
+import headerImg from '../assets/images/portfolio-hero-graphic.svg'
+import Nav from '../components/Nav'
+
 
 const Home = () => {
   return (
-    <section id='home'>
-        <h1 className='text-5xl uppercase xl:text-6xl'>Sasha Marshall</h1>
-        <h3 className='text-3xl text-secondary uppercase text-left xl:text-4xl'>Software Engineer & Designer</h3>
-        <div className='flex w-full justify-around bg-neutral rounded-xl text-secondary py-4 mt-2 mb-8'>
+    <section id='home' className="hero-bg h-screen">
+      <Nav />
+      <section className="hero-container flex flex-wrap items-center mx-8 md:mx-32 lg:mx-48 xl:mx-48 pb-12 z-10 ">
+      <div className="hero w-full xl:w-1/2 text-center xl:text-left flex flex-col items-start">
+        <h1 className='text-5xl lg:text-6xl xl:text-6xl uppercase xl:text-7xl heading-font text-neutral pb-6 text-center xl:text-left'>Building beautiful web applications.</h1>
+        <p className='text-xl text-left xl:text-2xl accent-font text-center xl:text-left'>Equipped with all the technical skills to help you tackle your web developments needs.</p>
+        <div className='flex w-full xl:w-2/4 justify-center xl:justify-between gap-3 text-gradient py-6'>
           <a href='https://twitter.com/sashamdesigns' className='btn btn-ghost btn-sm rounded-btn text-3xl'><FaTwitter /></a>
           <a href='https://github.com/sashamars33' className='btn btn-ghost btn-sm rounded-btn text-3xl'><FaGithub /></a>
           <a href='https://www.linkedin.com/in/-sasha-marshall/' className='btn btn-ghost btn-sm rounded-btn text-3xl'><FaLinkedin /></a>
           <a href='mailto:sashamarshalldesigns@gmail.com' className='btn btn-ghost btn-sm rounded-btn text-3xl'><FaRegEnvelope /></a>
           <a href='https://www.instagram.com/sashamarshall_33/' className='btn btn-ghost btn-sm rounded-btn text-3xl'><FaInstagram /></a>
         </div>
+        <Link to='about' activeClass='active' spy={true} smooth={true} offset={-50} duration={500} className="btn btn-secondary w-1/2 text-xl text-base-100 m-auto ">Learn More</Link>
+      </div>
+      <div className="hero-img w-1/2 m-auto my-6 xl:m-0">
+        <img src={headerImg} alt="hero" className='w-full'/>
+      </div>
+    </section>
+
+{/*        
         <div className="flex bg-secondary p-4 my-4 rounded-xl flex-wrap">
         <p className='py-8 my-4 text-primary p-4 bg-neutral rounded-xl lg:text-xl xl:text-2xl font-normal w-full'>Building full-stack applications with React, MonogoDB, Node.js, Express, and TailwindCSS. To see examples of my work, check out my projects in the projects section. If you want to know more about my skills and experience, head to the about section. 
         </p>
@@ -50,7 +63,7 @@ const Home = () => {
           <li className="p-1"><FaFigma/></li>
           <li className="p-1"><SiAdobeillustrator/></li>
         </ul>
-        </div>
+        </div> */}
     </section>
   )
 }
