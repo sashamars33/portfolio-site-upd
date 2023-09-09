@@ -2,7 +2,7 @@ import {Link, animateScroll as scroll} from 'react-scroll'
 
 const Nav = () => {
   return (
-    <nav className='navbar mb-12 shadow-lg text-neutral xl:text-2xl lg:text-xl md:text-lg text-sm uppercase'>
+    <nav className='navbar mb-12 shadow-lg text-neutral xl:text-2xl lg:text-xl md:text-lg sm:text-sm text-xs uppercase'>
         <div className='flex my-6 mx-8 md:mx-32 lg:mx-48 xl:mx-48 justify-between w-full'>
             <Link to='home' activeClass='active' spy={true} smooth={true} offset={-50} duration={500} className='text-secondary'>Sasha Marshall</Link>
             <div className='flex justify-between w-1/2'>

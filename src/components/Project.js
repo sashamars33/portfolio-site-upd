@@ -21,9 +21,9 @@ const Project = () => {
 
   return (
     <>
-    <section className=' grid grid-cols-1 items-center mx-8 md:mx-32 lg:mx-48 xl:mx-48 pb-12'>
+    <section className=' grid grid-cols-1 items-center mx-0 md:mx-32 lg:mx-48 xl:mx-48 pb-12'>
 
-    <div className='gradient text-neutral flex flex-col xl:flex-row justify-between flex rounded-xl px-8 py-3 m-4'>
+    <div className='gradient text-neutral flex flex-col xl:flex-row justify-between flex md:rounded-xl lg:rounded-xl xl:rounded-xl px-8 py-3 md:m-4 lg:m-4 xl:m-4 m-0 my-6'>
       <div className='flex flex-col justify-center w-full xl:w-2/4 text-left gap-4'>
       <h3 className="text-primary uppercase text-lg accent-font">React | MongoDB | Node | Express</h3>
       <h2 className='text-4xl heading-font uppercase'>Nature Photo Generator</h2>
@@ -34,7 +34,7 @@ const Project = () => {
     </div>
 
 
-    <div className='gradient text-neutral flex flex-col xl:flex-row-reverse justify-between flex rounded-xl px-8 py-3 m-4'>
+    <div className='gradient text-neutral flex flex-col xl:flex-row-reverse justify-between flex md:rounded-xl lg:rounded-xl xl:rounded-xl px-8 py-3 md:m-4 lg:m-4 xl:m-4 m-0 my-6'>
       <div className='flex flex-col justify-center w-full xl:w-2/4 text-left gap-4'>
       <h3 className="text-primary uppercase text-lg accent-font">Webflow | HTML | CSS</h3>
       <h2 className='text-4xl heading-font uppercase'>Akantro</h2>
@@ -45,7 +45,7 @@ const Project = () => {
     </div>
 
 
-    <div className='gradient text-neutral flex flex-col xl:flex-row justify-between flex rounded-xl px-8 py-3 m-4'>
+    <div className='gradient text-neutral flex flex-col xl:flex-row justify-between flex md:rounded-xl lg:rounded-xl xl:rounded-xl px-8 py-3 md:m-4 lg:m-4 xl:m-4 m-0 my-6'>
       <div className='flex flex-col justify-center w-full xl:w-2/4 text-left gap-4'>
       <h3 className="text-primary uppercase text-lg accent-font">React | CSS | Netlify</h3>
       <h2 className='text-4xl heading-font uppercase'>Thelma Thorpe Photography</h2>
@@ -55,7 +55,7 @@ const Project = () => {
       <img className='w-full xl:w-1/3 my-4 rounded-2xl saturate-0' src={TTPSS} alt='Thelma Thorpe Photography Website Preview'></img>
     </div>
 
-    <div className='gradient text-neutral flex flex-col xl:flex-row-reverse justify-between flex rounded-xl px-8 py-3 m-4'>
+    <div className='gradient text-neutral flex flex-col xl:flex-row-reverse justify-between flex md:rounded-xl lg:rounded-xl xl:rounded-xl px-8 py-3 md:m-4 lg:m-4 xl:m-4 m-0 my-6'>
       <div className='flex flex-col justify-center w-full xl:w-2/4 text-left gap-4'>
       <h3 className="text-primary uppercase text-lg accent-font">React | CSS | Netlify | Tailwind</h3>
       <h2 className='text-4xl heading-font uppercase'>Sasha Marshall Portfolio Site</h2>
@@ -65,16 +65,16 @@ const Project = () => {
       <img className='w-full xl:w-1/3 my-4 rounded-2xl saturate-0' src={SMSS} alt='S&M Salon Website Preview'></img>
     </div>
 
-  <div className="collapse">
-  <input type="checkbox" onClick={() => setShow(!show)} /> 
-  <div className='collapse-title text-lg xl:text-2xl m-auto'>
+  <div className="collapse ">
+  <input type="checkbox" onClick={() => setShow(!show)}/> 
+  <div className='collapse-title text-lg xl:text-2xl p-0 w-1/2'>
    {!show ?  <p className="w-full text-center btn-primary p-3 rounded-xl" >SHOW ALL</p> : <p className="w-full text-center btn-primary p-3 rounded-xl">HIDE</p>}
   </div>
   <div className="collapse-content p-0 m-0"> 
   
 
 
-    <div className='gradient text-neutral flex flex-col xl:flex-row justify-between flex rounded-xl px-8 py-3 m-4'>
+    <div className='gradient text-neutral flex flex-col xl:flex-row justify-between flex md:rounded-xl lg:rounded-xl xl:rounded-xl px-8 py-3 md:m-4 lg:m-4 xl:m-4 m-0 my-6'>
       <div className='flex flex-col justify-center w-full xl:w-2/4 text-left gap-4'>
       <h3 className="text-primary uppercase text-lg accent-font">Shopify | Liquid | CSS | HTML</h3>
       <h2 className='text-4xl heading-font uppercase'>Daydaykay Designs</h2>
@@ -85,7 +85,7 @@ const Project = () => {
     </div>
 
 
-    <div className='gradient text-neutral flex flex-col xl:flex-row-reverse justify-between flex rounded-xl px-8 py-3 m-4'>
+    <div className='gradient text-neutral flex flex-col xl:flex-row-reverse justify-between flex md:rounded-xl lg:rounded-xl xl:rounded-xl px-8 py-3 md:m-4 lg:m-4 xl:m-4 m-0 my-6'>
       <div className='flex flex-col justify-center w-full xl:w-2/4 text-left gap-4'>
       <h3 className="text-primary uppercase text-lg accent-font">EJS | Node | Express | Tailwind CSS</h3>
       <h2 className='text-4xl heading-font uppercase'>Dad Joke Central</h2>
@@ -95,7 +95,7 @@ const Project = () => {
       <img className='w-full xl:w-1/3 my-4 rounded-2xl saturate-0' src={DJCSS} alt='Dad Joke Central Website Preview'></img>
     </div>
 
-    <div className='gradient text-neutral flex flex-col xl:flex-row justify-between flex rounded-xl px-8 py-3 m-4'>
+    <div className='gradient text-neutral flex flex-col xl:flex-row justify-between flex md:rounded-xl lg:rounded-xl xl:rounded-xl px-8 py-3 md:m-4 lg:m-4 xl:m-4 m-0 my-6'>
       <div className='flex flex-col justify-center w-full xl:w-2/4 text-left gap-4'>
       <h3 className="text-primary uppercase text-lg accent-font">Wordpress | CSS | HTML</h3>
       <h2 className='text-4xl heading-font uppercase'>Avanti Physical Therapy</h2>
@@ -105,7 +105,7 @@ const Project = () => {
       <img className='w-full xl:w-1/3 my-4 rounded-2xl saturate-0' src={APTSS} alt='Avanti Physical Therapy Website Preview'></img>
     </div>
 
-    <div className='gradient text-neutral flex flex-col xl:flex-row-reverse justify-between flex rounded-xl px-8 py-3 m-4'>
+    <div className='gradient text-neutral flex flex-col xl:flex-row-reverse justify-between flex md:rounded-xl lg:rounded-xl xl:rounded-xl px-8 py-3 md:m-4 lg:m-4 xl:m-4 m-0 my-6'>
       <div className='flex flex-col justify-center w-full xl:w-2/4 text-left gap-4'>
       <h3 className="text-primary uppercase text-lg accent-font">React | CSS | Netlify</h3>
       <h2 className='text-4xl heading-font uppercase'>S&M Salon</h2>
@@ -117,12 +117,12 @@ const Project = () => {
 
     <div className="collapse">
   <input type="checkbox" /> 
-  <div className='collapse-title text-2xl m-auto'>
+  <div className='collapse-title text-2xl p-0 w-3/4 m-auto'>
     <h2 className='uppercase btn-info p-3 rounded-xl text-base-100'>Coming Soon</h2>
   </div>
   <div className="collapse-content p-0 m-0"> 
 
-  <div className='gradient text-neutral flex flex-col xl:flex-row justify-between flex rounded-xl px-8 py-3 m-4'>
+  <div className='gradient text-neutral flex flex-col xl:flex-row justify-between flex md:rounded-xl lg:rounded-xl xl:rounded-xl px-8 py-3 md:m-4 lg:m-4 xl:m-4 m-0 my-6'>
       <div className='flex flex-col justify-center w-full xl:w-2/4 text-left gap-4'>
       <h3 className="text-primary uppercase text-lg accent-font">React | Node | Express | MongoDB | TailwindCSS</h3>
       <h2 className='text-4xl heading-font uppercase'>Sticky Notes</h2>
@@ -132,7 +132,7 @@ const Project = () => {
       <img className='w-full xl:w-1/3 my-4 rounded-2xl saturate-0' src={SNSS} alt='Avanti Physical Therapy Website Preview'></img>
     </div>
 
-    <div className='gradient text-neutral flex flex-col xl:flex-row-reverse justify-between flex rounded-xl px-8 py-12 m-4'>
+    <div className='gradient text-neutral flex flex-col xl:flex-row-reverse justify-between flex md:rounded-xl lg:rounded-xl xl:rounded-xl px-8 py-3 md:m-4 lg:m-4 xl:m-4 m-0 my-6'>
       <div className='flex flex-col justify-center w-full xl:w-2/4 text-left gap-4'>
       <h3 className="text-primary uppercase text-lg accent-font">React | Node | Express | MongoDB | TailwindCSS | Mapbox</h3>
       <h2 className='text-4xl heading-font uppercase'>Oil Routing Application</h2>
