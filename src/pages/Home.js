@@ -4,21 +4,21 @@ import {FaInstagram} from 'react-icons/fa'
 import {FaGithub} from 'react-icons/fa'
 import {FaLinkedin} from 'react-icons/fa'
 import {FaRegEnvelope} from 'react-icons/fa'
-import { FaGitAlt } from "react-icons/fa";
-import {FaHtml5} from 'react-icons/fa'
-import {FaJsSquare} from 'react-icons/fa'
-import {FaNodeJs} from 'react-icons/fa'
-import {FaNpm} from 'react-icons/fa'
-import {FaReact} from 'react-icons/fa'
-// import {FaWordpressSimple} from 'react-icons/fa'
-// import {FaShopify} from 'react-icons/fa'
-import {FaFigma} from 'react-icons/fa'
-import {FaCss3Alt} from 'react-icons/fa'
+// import { FaGitAlt } from "react-icons/fa";
+// import {FaHtml5} from 'react-icons/fa'
+// import {FaJsSquare} from 'react-icons/fa'
+// import {FaNodeJs} from 'react-icons/fa'
+// import {FaNpm} from 'react-icons/fa'
+// import {FaReact} from 'react-icons/fa'
+// // import {FaWordpressSimple} from 'react-icons/fa'
+// // import {FaShopify} from 'react-icons/fa'
+// import {FaFigma} from 'react-icons/fa'
+// import {FaCss3Alt} from 'react-icons/fa'
 
-import {SiAdobeillustrator} from 'react-icons/si'
-import {SiMongodb} from 'react-icons/si'
-import {SiExpress} from 'react-icons/si'
-import {SiTailwindcss} from 'react-icons/si'
+// import {SiAdobeillustrator} from 'react-icons/si'
+// import {SiMongodb} from 'react-icons/si'
+// import {SiExpress} from 'react-icons/si'
+// import {SiTailwindcss} from 'react-icons/si'
 import headerImg from '../assets/images/portfolio-hero-graphic.svg'
 import Nav from '../components/Nav'
 
@@ -40,7 +40,7 @@ const Home = () => {
         </div>
         <Link to='about' activeClass='active' spy={true} smooth={true} offset={-50} duration={500} className="btn btn-secondary w-1/2 text-xl text-base-100 m-auto ">Learn More</Link>
       </div>
-      <div className="hero-img w-1/2 m-auto my-6 xl:m-0">
+      <div className="hero-img lg:w-1/2 xl:w-1/2 md:w-3/4 w-3/4 m-auto my-6 xl:m-0">
         <img src={headerImg} alt="hero" className='w-full'/>
       </div>
     </section>
