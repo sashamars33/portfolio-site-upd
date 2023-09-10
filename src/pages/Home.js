@@ -32,11 +32,11 @@ const Home = () => {
         <h1 className='text-5xl lg:text-6xl xl:text-6xl uppercase xl:text-7xl heading-font text-neutral pb-6 text-center xl:text-left'>Building beautiful web applications.</h1>
         <p className='text-xl text-left xl:text-2xl accent-font text-center xl:text-left'>Equipped with all the technical skills to help you tackle your web developments needs.</p>
         <div className='flex w-full xl:w-2/4 justify-center xl:justify-between gap-3 text-gradient py-6'>
-          <a href='https://twitter.com/sashamdesigns' className='btn btn-ghost btn-sm rounded-btn text-3xl'><FaTwitter /></a>
-          <a href='https://github.com/sashamars33' className='btn btn-ghost btn-sm rounded-btn text-3xl'><FaGithub /></a>
-          <a href='https://www.linkedin.com/in/-sasha-marshall/' className='btn btn-ghost btn-sm rounded-btn text-3xl'><FaLinkedin /></a>
-          <a href='mailto:sashamarshalldesigns@gmail.com' className='btn btn-ghost btn-sm rounded-btn text-3xl'><FaRegEnvelope /></a>
-          <a href='https://www.instagram.com/sashamarshall_33/' className='btn btn-ghost btn-sm rounded-btn text-3xl'><FaInstagram /></a>
+          <a href='https://twitter.com/sashamdesigns' target="_blank" rel="noopener noreferrer" className='btn btn-ghost btn-sm rounded-btn text-3xl'><FaTwitter /></a>
+          <a href='https://github.com/sashamars33' target="_blank" rel="noopener noreferrer" className='btn btn-ghost btn-sm rounded-btn text-3xl'><FaGithub /></a>
+          <a href='https://www.linkedin.com/in/-sasha-marshall/' target="_blank" rel="noopener noreferrer" className='btn btn-ghost btn-sm rounded-btn text-3xl'><FaLinkedin /></a>
+          <a href='mailto:sashamarshalldesigns@gmail.com' target="_blank" rel="noopener noreferrer" className='btn btn-ghost btn-sm rounded-btn text-3xl'><FaRegEnvelope /></a>
+          <a href='https://www.instagram.com/sashamarshall_33/' target="_blank" rel="noopener noreferrer" className='btn btn-ghost btn-sm rounded-btn text-3xl'><FaInstagram /></a>
         </div>
         <Link to='about' activeClass='active' spy={true} smooth={true} offset={-50} duration={500} className="btn btn-secondary w-1/2 text-xl text-base-100 m-auto ">Learn More</Link>
       </div>
