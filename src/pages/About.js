@@ -17,6 +17,7 @@ import {SiExpress} from 'react-icons/si'
 import {SiTailwindcss} from 'react-icons/si'
 import {FaPython} from 'react-icons/fa'
 import {FaElementor} from 'react-icons/fa'
+import Resume from '../assets/images/Sasha-Marshall-Sep23.pdf'
 
 const About = () => {
   return (
@@ -46,7 +47,7 @@ const About = () => {
           <li className="p-1"><FaElementor/></li>
         </ul>
         </div>
-        <a href='https://www.figma.com/file/ifPVh90mgmZBqflPrvM9Pz/Resume-2023?type=design&node-id=0%3A1&mode=design&t=5FN38qXk1kKzAVxW-1' className="btn btn-lg btn-secondary text-base-100 justify-self-center self-center">Download Resume</a>
+        <a href={Resume} target="_blank" rel="noopener noreferrer" className="btn btn-lg btn-secondary text-base-100 justify-self-center self-center">Download Resume</a>
       </div>
       <div className="w-full xl:w-6/12 text-center xl:text-left">
       <p className='py-3 text-lg xl:text-lg accent-font'>Sasha is a talented engineer who began her software career at the 100devs agency where she working closely with colleagues and mentors to develop essential skills. During her time there, she ventured into the world of freelancing and contract work, driven by the opportunities to refine her skills.</p>

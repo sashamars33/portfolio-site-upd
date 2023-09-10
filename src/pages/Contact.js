@@ -12,11 +12,11 @@ const Contact = () => {
         <p className="text-2xl text-secondary pt-24 pb-6 accent-font">Want to get in touch?</p>
         <p className="text-2xl accent-font">I am always interested in new opportunities, ideas, and technologies. Send me a message with anything new!</p>
         <div className='py-6 text-primary'>
-          <a href='https://twitter.com/sashamdesigns' className='btn btn-ghost btn-sm rounded-btn text-3xl'><FaTwitter /></a>
-          <a href='https://github.com/sashamars33' className='btn btn-ghost btn-sm rounded-btn text-3xl'><FaGithub /></a>
-          <a href='https://www.linkedin.com/in/-sasha-marshall/' className='btn btn-ghost btn-sm rounded-btn text-3xl'><FaLinkedin /></a>
-          <a href='mailto:sashamarshalldesigns@gmail.com' className='btn btn-ghost btn-sm rounded-btn text-3xl'><FaRegEnvelope /></a>
-          <a href='https://www.instagram.com/sashamarshall_33/' className='btn btn-ghost btn-sm rounded-btn text-3xl'><FaInstagram /></a>
+          <a href='https://twitter.com/sashamdesigns' target="_blank" rel="noopener noreferrer" className='btn btn-ghost btn-sm rounded-btn text-3xl'><FaTwitter /></a>
+          <a href='https://github.com/sashamars33' target="_blank" rel="noopener noreferrer" className='btn btn-ghost btn-sm rounded-btn text-3xl'><FaGithub /></a>
+          <a href='https://www.linkedin.com/in/-sasha-marshall/' target="_blank" rel="noopener noreferrer" className='btn btn-ghost btn-sm rounded-btn text-3xl'><FaLinkedin /></a>
+          <a href='mailto:sashamarshalldesigns@gmail.com' target="_blank" rel="noopener noreferrer" className='btn btn-ghost btn-sm rounded-btn text-3xl'><FaRegEnvelope /></a>
+          <a href='https://www.instagram.com/sashamarshall_33/' target="_blank" rel="noopener noreferrer" className='btn btn-ghost btn-sm rounded-btn text-3xl'><FaInstagram /></a>
         </div>
       </div>
       <div className="w-full lg:w-7/12 xl:w-7/12">
