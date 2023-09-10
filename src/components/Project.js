@@ -67,7 +67,7 @@ const Project = () => {
 
   <div className="collapse ">
   <input type="checkbox" onClick={() => setShow(!show)}/> 
-  <div className='collapse-title text-lg xl:text-2xl p-0 w-1/2'>
+  <div className='collapse-title text-lg xl:text-2xl p-0 w-1/2 m-auto'>
    {!show ?  <p className="w-full text-center btn-primary p-3 rounded-xl" >SHOW ALL</p> : <p className="w-full text-center btn-primary p-3 rounded-xl">HIDE</p>}
   </div>
   <div className="collapse-content p-0 m-0"> 
