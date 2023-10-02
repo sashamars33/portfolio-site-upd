@@ -6,4 +6,4 @@ Tech used: JavaScript, React, Tailwind CSS, DaisyUI
 
 Optimizations: In the future I plan to add blogs posts I have written and tesimonials from clients. I will also continue to update it as I create more projects and learn new technologies.
 
-Lessons Learned: This is my second project using Tailwind so there was alot of trail and errot with styling but a lot of fun!
+Lessons Learned: This is my second project using Tailwind so there was alot of trail and error with styling but a lot of fun!
