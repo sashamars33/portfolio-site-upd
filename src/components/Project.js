@@ -8,6 +8,8 @@ import APTSS from '../assets/images/avanti-ss.png'
 import DDKSS from '../assets/images/daydaykay-ss.png'
 import DJCSS from '../assets/images/DJCSS.png'
 import ADSS from '../assets/images/ADSS.png'
+import BARSS from '../assets/images/BARSS.png'
+
 import {BsArrowDown} from 'react-icons/bs'
 import {BsArrowUp} from 'react-icons/bs'
 
@@ -58,11 +60,11 @@ const Project = () => {
     <div className='gradient text-neutral flex flex-col xl:flex-row-reverse justify-between flex md:rounded-xl lg:rounded-xl xl:rounded-xl px-8 py-3 md:m-4 lg:m-4 xl:m-4 m-0 my-6'>
       <div className='flex flex-col justify-center w-full xl:w-2/4 text-left gap-4'>
       <h3 className="text-primary uppercase text-lg accent-font">React | CSS | Netlify | Tailwind</h3>
-      <h2 className='text-4xl heading-font uppercase'>Sasha Marshall Portfolio Site</h2>
+      <h2 className='text-4xl heading-font uppercase'>Personal Portfolio Site</h2>
       <p className='text-neutral text-lg accent-font'>A React frontend app built built as my personal portfolio sire but could act as a template for other portfolio type sites. I intially drafted the design in figma before translating it into the site you are currently viewing. Figma file is linked for viewing below.</p>
       <a href="https://www.figma.com/file/ye4aVBQmvG9YbFG5AhPjZK/Portfolio-Site-Design-Docs?type=design&node-id=0%3A1&mode=design&t=4rK1whFeMBmQxTa4-1" target="_blank" rel="noopener noreferrer" className="btn btn-secondary w-1/3">Figma</a>
       </div>
-      <img className='w-full xl:w-1/3 my-4 rounded-2xl saturate-0' src={SMSS} alt='S&M Salon Website Preview'></img>
+      <img className='w-full xl:w-1/3 my-4 rounded-2xl saturate-0 self-center' src={SMSS} alt='S&M Salon Website Preview'></img>
     </div>
 
   <div className="collapse ">
@@ -139,7 +141,7 @@ const Project = () => {
       <p className='text-neutral text-lg accent-font'>A full stack web application for a San Francisco based company that routes drivers to restaurants in need of grease removal services. I am currently building the dashboard for this application and show have a demo ready by the in end of the month!</p>
       {/* <a href="https://s-m-salon.netlify.app/" target="_blank" rel="noopener noreferrer" className="btn btn-secondary w-1/3">Demo</a> */}
       </div>
-      {/* <img className='w-full xl:w-1/3 my-4 rounded-2xl saturate-0' src={SMSSS} alt='S&M Salon Website Preview'></img> */}
+      <img className='w-full xl:w-1/3 my-4 rounded-2xl saturate-0' src={BARSS} alt='Bay Area Restaurant Services'></img>
     </div>
  </div>
 </div>
