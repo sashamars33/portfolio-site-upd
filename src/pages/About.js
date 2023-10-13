@@ -17,7 +17,7 @@ import {SiExpress} from 'react-icons/si'
 import {SiTailwindcss} from 'react-icons/si'
 import {FaPython} from 'react-icons/fa'
 import {FaElementor} from 'react-icons/fa'
-import Resume from '../assets/images/Sasha-Marshall-Sep23.pdf'
+import Resume from '../assets/images/Sasha-Marshall-Resume-2023.pdf'
 
 const About = () => {
   return (
