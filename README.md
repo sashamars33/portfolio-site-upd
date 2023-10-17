@@ -2,7 +2,7 @@ A react application to display all of coding projects for public display. Site w
 
 Link to project: https://sashamarshall.dev/
 
-Tech used: JavaScript, React, Tailwind CSS, DaisyUI
+Tech used: JavaScript, React, Tailwind CSS, DaisyUI, React Router
 
 Optimizations: In the future I plan to add blogs posts I have written and tesimonials from clients. I will also continue to update it as I create more projects and learn new technologies.
 
