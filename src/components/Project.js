@@ -29,7 +29,7 @@ const Project = () => {
       <h3 className="text-primary uppercase text-lg accent-font">React | Node | Express | MongoDB | TailwindCSS</h3>
       <h2 className='text-4xl heading-font uppercase'>Sticky Notes</h2>
       <p className='text-neutral text-lg accent-font'>A full stack organization app that brings sticky notes to the virtual world. With this app you can create topic boards and add corresponding notes to the board. Site is nearly completed and will be ready for demo by the end of the month!</p>
-      <a href="#" className="btn btn-secondary w-1/3">Coming Soon</a>
+      <a href="https://stickynotes-organization.netlify.app/" rel="noopener noreferrer" target="_blank" className="btn btn-secondary w-1/3">Visit</a>
       </div>
       <img className='w-full xl:w-1/3 my-4 rounded-2xl saturate-0 self-center' src={SNSS} alt='Avanti Physical Therapy Website Preview'></img>
     </div>
